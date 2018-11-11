@@ -1,9 +1,18 @@
 <style>background-color:#ffffff;</style>
 ## https://liamtapia.github.io/shellSort/
 <h1>¿Qué es Shellsort?</h1>
+
 <p> <img src="https://liamtapia.github.io/shellSort/imagenes/imagen.png" style="float:right;width:128px;height:128px:"> 
 Shellsort es una variación del Insertion sort, en lugar de mover elementos sólo una posición, se mueven varios espacios haciendo sub-arreglos.</p>
+
 <p>Este ordenamiento fue  denominado así en honor a su desarrollador Donald Shell.</p>
+
+<p>Donald Shell nació el primero de marzo de 1924 y falleció el 2 de noviembre del 2015 a la edad de 91 años. </p>
+
+<p>Fue un científico del área de computación americano que creó el algoritmo de ordenamiento Shellsort y administró el departamento de ingeniería del nuevo Centro de Servicios de Información de la General Electric, la cual fue la primer empresa comercial en conectar computadoras usando la arquitectura cliente-servidor. Esta arquitectura es el diseño base del Internet.</p>
+
+<h1>Funcionamiento del algoritmo</h1>
+<p>Se considera el siguiente arreglo: </p>
 
 
 ```markdown
@@ -24,13 +33,4 @@ void shell_sort(int *a, int n)
     }
 }
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/LiamTapia/shellSort/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<h1></h1>
