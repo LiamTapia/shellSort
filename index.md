@@ -6,12 +6,15 @@ You can use the [editor on GitHub](https://github.com/LiamTapia/shellSort/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
- <img src="https://liamtapia.github.io/shellSort/imagenes/jorge.jpg" style="width:128px;height:128px:"> 
 #Markdown
 ##Markdown
 ### Markdown
 
-<h1>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for caca</h1>
+<h1>¿Qué es Shellsort?</h1>
+<p> <img src="https://liamtapia.github.io/shellSort/imagenes/imagen.png" style="float:right;width:128px;height:128px:"> 
+Shellsort es una variación del Insertion sort, en lugar de mover elementos sólo una posición, se mueven varios espacios haciendo sub-arreglos.</p>
+<p>Este ordenamiento fue  denominado así en honor a su desarrollador Donald Shell.</p>
+
 
 ```markdown
 void shell_sort(int *a, int n)
@@ -30,19 +33,6 @@ void shell_sort(int *a, int n)
         }
     }
 }
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
