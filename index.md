@@ -6,13 +6,15 @@ You can use the [editor on GitHub](https://github.com/LiamTapia/shellSort/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+ <img src="https://liamtapia.github.io/shellSort/imagenes/jorge.jpg" width="500" height="600"> 
+
 ### Markdown
 
 <h1>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for caca</h1>
 
 ```markdown
 Syntax highlighted code block
- <img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj-74Lwm83eAhUEOn0KHR7YAcQQjRx6BAgBEAU&url=https%3A%2F%2Fwww.publinews.gt%2Fgt%2Fespectaculos%2F2018%2F02%2F07%2Ftras-despedido-jorge-ortiz-pinedo-demanda-televisa-millonaria-cifra.html&psig=AOvVaw3jBLDLucRuRFgIAfAAB3yf&ust=1542055856151600" width="500" height="600"> 
+
 
 # Header 1
 ## Header 2
