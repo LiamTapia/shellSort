@@ -1,15 +1,5 @@
-## Welcome to GitHub Pages
-
+<style>background-color:#ffffff;</style>
 ## https://liamtapia.github.io/shellSort/
-
-You can use the [editor on GitHub](https://github.com/LiamTapia/shellSort/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-#Markdown
-##Markdown
-### Markdown
-
 <h1>¿Qué es Shellsort?</h1>
 <p> <img src="https://liamtapia.github.io/shellSort/imagenes/imagen.png" style="float:right;width:128px;height:128px:"> 
 Shellsort es una variación del Insertion sort, en lugar de mover elementos sólo una posición, se mueven varios espacios haciendo sub-arreglos.</p>
