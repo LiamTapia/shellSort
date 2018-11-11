@@ -6,7 +6,7 @@ You can use the [editor on GitHub](https://github.com/LiamTapia/shellSort/edit/m
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
- <img src="https://liamtapia.github.io/shellSort/imagenes/jorge.jpg" width="500" height="600"> 
+ <img src="https://liamtapia.github.io/shellSort/imagenes/jorge.jpg" style="width:128px;height:128px;> 
 
 ### Markdown
 
