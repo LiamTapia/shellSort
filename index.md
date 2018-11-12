@@ -14,27 +14,39 @@ Shellsort es una variación del Insertion sort, en lugar de mover elementos sól
 <h1>Funcionamiento del algoritmo</h1>
 <p align="justify">Se considera el siguiente arreglo: </p>
 
+<p style="text-align:center;">
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex1.JPG" width="500" height="40" class="center"> 
+</p>
 
 <p>Se divide el número de elementos entre 2 y se forma el primer sub arreglo: </p>
 
+<p style="text-align:center;">
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex2.JPG" width="500" height="80" class="center"> 
+</p>
 
 <p>Se forma el siguiente sub arreglo: </p>
 
+<p style="text-align:center;">
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex3.JPG" width="500" height="80" class="center"> 
+</p>
 
 <p>Se repite el proceso hasta hacerlo con todo el arreglo: </p>
 
+<p style="text-align:center;">
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex4.JPG" width="500" height="40" class="center"> 
+</p>
 
 <p>El 5 que calculamos antes se divide entre 2 y se forman nuevos sub arreglos: </p>
 
+<p style="text-align:center;">
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex5.JPG" width="500" height="80" class="center"> 
+</p>
 
 <p>Esto se repetirá hasta que el número que calculemos sea 1: </p>
 
+<p style="text-align:center;">
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex6.JPG" width="500" height="40" class="center"> 
+</p>
 
 ```markdown
 void shell_sort(int *a, int n)
