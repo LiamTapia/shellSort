@@ -1,4 +1,3 @@
-## https://liamtapia.github.io/shellSort/
 <h1>¿Qué es Shellsort?</h1>
 
 <p align="justify"> <img src="https://liamtapia.github.io/shellSort/imagenes/imagen.png" style="float:right;width:128px;height:128px:"> 
