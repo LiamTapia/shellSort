@@ -18,11 +18,11 @@ Shellsort es una variación del Insertion sort, en lugar de mover elementos sól
 
 <p>Se divide el número de elementos entre 2 y se forma el primer sub arreglo: </p>
 
-<img src="https://liamtapia.github.io/shellSort/imagenes/ex2.JPG" width="500" height="40" class="center"> 
+<img src="https://liamtapia.github.io/shellSort/imagenes/ex2.JPG" width="500" height="80" class="center"> 
 
 <p>Se forma el siguiente sub arreglo: </p>
 
-<img src="https://liamtapia.github.io/shellSort/imagenes/ex3.JPG" width="500" height="40" class="center"> 
+<img src="https://liamtapia.github.io/shellSort/imagenes/ex3.JPG" width="500" height="80" class="center"> 
 
 <p>Se repite el proceso hasta hacerlo con todo el arreglo: </p>
 
@@ -30,7 +30,7 @@ Shellsort es una variación del Insertion sort, en lugar de mover elementos sól
 
 <p>El 5 que calculamos antes se divide entre 2 y se forman nuevos sub arreglos: </p>
 
-<img src="https://liamtapia.github.io/shellSort/imagenes/ex5.JPG" width="500" height="40" class="center"> 
+<img src="https://liamtapia.github.io/shellSort/imagenes/ex5.JPG" width="500" height="80" class="center"> 
 
 <p>Esto se repetirá hasta que el número que calculemos sea 1: </p>
 
