@@ -1,4 +1,3 @@
-<style>background-color:#ffffff;</style>
 ## https://liamtapia.github.io/shellSort/
 <h1>¿Qué es Shellsort?</h1>
 
@@ -48,6 +47,33 @@ Shellsort es una variación del Insertion sort, en lugar de mover elementos sól
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex6.JPG" width="500" height="40" class="center"> 
 </p>
 
+<h1>Ventajas del algoritmo ShellSort</h1>
+<ul>
+    <li>No requiere memoria adicional.</li>
+    <li>Mejor rendimiento que el método de inserción clásico.</li>
+    <li>5 veces más rápido que bubble sort.</li>
+    <li>2 veces más rápido que insertion sort.</li>
+</ul>
+    
+<h1>Desventajas del algoritmo ShellSort</h1>
+<ul>
+    <li>Implementación algo confusa.</li>
+    <li>Realiza numerosas comparacciones e intercambios.</li>
+    <li>Es significativamente más lento que merge, heap y quick sort.</li>
+</ul>
+
+<h1>Aplicaciones</h1>
+<ul>
+    <li>No suele ser utilizado de manera cotidiana pues los métodos Quicksort, Mergesort y Heapsort siguen siendo los más utilizados.</li>
+    <li>Se usa en programas que ocupen menos cache de lo que se ocuparía en un método Quicksort.</li>
+    <li>Se usa en aplicaciones que no ocupen llamar al execution stack.</li>
+    <li>Se puede utilizar para comprimir archivos, usado en programas como bzip2.</li>
+    <li>Está implementado en la función qsort de la librería uClibc de C.</li>
+    <li>Es utilizado por el kernel de Linux en el procedimiento group_sort.</li>
+<ul>
+    
+<h1>Implementación del algoritmo en C</h1>
+
 ```markdown
 void shell_sort(int *a, int n)
 {
@@ -66,4 +92,20 @@ void shell_sort(int *a, int n)
     }
 }
 ```
+
+<h1>Ecplicación del código</h1>
+<ol>
+    <li><strong>Primer for:</strong> se encarga de obtener los “gap” al dividir en un comienzo el numero de valores en el arreglo entre dos,    para en las siguientes iteraciones dividir el mismo numero hasta llegar a 0.
+    <li><strong>Segundo for:</strong> guarda el valor que se encuentra marcado por el “gap”, y realiza un tercer for que al terminar coloca el valor guardado por temporal en la posición correspondiente. Este for aumenta el contador para moverse a los siguientes bloques y acaba al llegar al último elemento del arreglo.  
+    <li><strong>Tercer for:</strong> comienza en el elemento marcado por el “gap” y se mueve en orden decreciente a través de los elementos que indique el bloque en el que se dividió el arreglo.
+    <li><strong>If else:</strong> revisa si el valor guardado en “temp” es menor al valor actual marcado por el for, de cumplirse , ese valor se mueve al elemento siguiente en el “gap”, de no cumplirse, se sale de la condición.
+<ol>
+
+<h1>Tiempos de ejecución para este código</h1>
+<ul>
+    <li>Peor caso: Θ(N (log N)^2)
+    <li>Caso promedio: Θ(N (log N)^2)
+    <li>Mejor caso: Θ(N logN)
+<ul>
+
 <h1></h1>
