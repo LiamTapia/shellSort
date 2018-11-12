@@ -93,7 +93,7 @@ void shell_sort(int *a, int n)
 }
 ```
 
-<h1>Ecplicación del código</h1>
+<h1>Explicación del código</h1>
 <ol>
     <li><strong>Primer for:</strong> se encarga de obtener los “gap” al dividir en un comienzo el numero de valores en el arreglo entre dos,    para en las siguientes iteraciones dividir el mismo numero hasta llegar a 0.
     <li><strong>Segundo for:</strong> guarda el valor que se encuentra marcado por el “gap”, y realiza un tercer for que al terminar coloca el valor guardado por temporal en la posición correspondiente. Este for aumenta el contador para moverse a los siguientes bloques y acaba al llegar al último elemento del arreglo.  
