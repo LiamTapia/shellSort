@@ -14,7 +14,7 @@ Shellsort es una variación del Insertion sort, en lugar de mover elementos sól
 <h1>Funcionamiento del algoritmo</h1>
 <p align="justify">Se considera el siguiente arreglo: </p>
 
-<img src="https://liamtapia.github.io/shellSort/imagenes/imagen.png" style="float:right;width:128px;height:128px:" class="center"> 
+<img src="https://liamtapia.github.io/shellSort/imagenes/ex1.jpg" style="width:128px;height:128px:" class="center"> 
 
 ```markdown
 void shell_sort(int *a, int n)
