@@ -70,7 +70,7 @@ Shellsort es una variación del Insertion sort, en lugar de mover elementos sól
     <li>Se puede utilizar para comprimir archivos, usado en programas como bzip2.</li>
     <li>Está implementado en la función qsort de la librería uClibc de C.</li>
     <li>Es utilizado por el kernel de Linux en el procedimiento group_sort.</li>
-<ul>
+</ul>
     
 <h1>Implementación del algoritmo en C</h1>
 
@@ -99,13 +99,13 @@ void shell_sort(int *a, int n)
     <li><strong>Segundo for:</strong> guarda el valor que se encuentra marcado por el “gap”, y realiza un tercer for que al terminar coloca el valor guardado por temporal en la posición correspondiente. Este for aumenta el contador para moverse a los siguientes bloques y acaba al llegar al último elemento del arreglo.  
     <li><strong>Tercer for:</strong> comienza en el elemento marcado por el “gap” y se mueve en orden decreciente a través de los elementos que indique el bloque en el que se dividió el arreglo.
     <li><strong>If else:</strong> revisa si el valor guardado en “temp” es menor al valor actual marcado por el for, de cumplirse , ese valor se mueve al elemento siguiente en el “gap”, de no cumplirse, se sale de la condición.
-<ol>
+</ol>
 
 <h1>Tiempos de ejecución para este código</h1>
 <ul>
     <li>Peor caso: Θ(N (log N)^2)
     <li>Caso promedio: Θ(N (log N)^2)
     <li>Mejor caso: Θ(N logN)
-<ul>
+</ul>
 
 <h1></h1>
