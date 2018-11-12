@@ -3,6 +3,8 @@
 <p align="justify"> <img src="https://liamtapia.github.io/shellSort/imagenes/imagen.png" style="float:right;width:128px;height:128px:"> 
 Shellsort es una variación del Insertion sort, en lugar de mover elementos sólo una posición, se mueven varios espacios haciendo sub-arreglos.</p>
 
+<p align="justify">El algoritmo Shell sort mejora el ordenamiento por inserción comparando elementos separados por un espacio de varias posiciones. Esto permite que un elemento haga "pasos más grandes" hacia su posición esperada. Los pasos múltiples sobre los datos se hacen con tamaños de espacio cada vez más pequeños. El último paso del Shell sort es un simple ordenamiento por inserción, pero para entonces, ya está garantizado que los datos del vector están casi ordenados.</p>
+
 <p align="justify">Este ordenamiento fue  denominado así en honor a su desarrollador Donald Shell.</p>
 
 <p align="justify">Donald Shell nació el primero de marzo de 1924 y falleció el 2 de noviembre del 2015 a la edad de 91 años. </p>
@@ -16,7 +18,7 @@ Shellsort es una variación del Insertion sort, en lugar de mover elementos sól
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex1.JPG" width="500" height="40" class="center"> 
 </p>
 
-<p>Se divide el número de elementos entre 2 y se forma el primer sub arreglo: </p>
+<p align="justify">Se divide el número de elementos entre 2, obtenemos 5 y contamos desde el primer elemento para formar el primer sub-arreglo para enseguida ordenarlo: </p>
 
 <p style="text-align:center;">
 <img src="https://liamtapia.github.io/shellSort/imagenes/ex2.JPG" width="500" height="80" class="center"> 
